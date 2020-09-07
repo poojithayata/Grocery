@@ -1,0 +1,264 @@
+body{
+  margin: 0 0 0;
+  padding: 0 0 0;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+
+}
+.navbar{
+  background-color: #46969c;
+}
+.navbar-toggler{
+  background-color: gray;
+
+
+}
+.nav-item{
+  padding-left: 20px;
+padding-top:  10px;
+position: relative;
+bottom: 70px;
+}
+
+.dropdown-item{
+  padding: 10px 10px 10px;
+}
+.cnt{
+  position: relative;
+  left: 80px;
+}
+li a{
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+a.link{
+  color:black;
+
+}
+li{
+
+ display:inline-block;
+ position: relative;
+font-family: 'optima', sans-serif;
+
+ font-size: 30px;
+ font-weight: bold;
+ text-transform: capitalize;
+ bottom: 80px;
+ width: 200px;
+ margin-top:20px;
+ margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.logo{
+  background-image: url("https://c8.alamy.com/comp/RCCKKC/home-shopping-cart-logo-concept-design-symbol-graphic-template-element-vector-RCCKKC.jpg");
+  position: relative;
+  bottom: 20px;
+  background-size: 160px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-color:white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+}
+
+#title{
+  padding:70px  70px;
+ 
+  color: white;
+
+
+}
+.text{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 3rem;
+  font-family: 'Merriweather', serif;
+  text-align: left;
+}
+.text1{
+  color:white;
+  font-size: 1.3rem;
+  /* font-weight:100; */
+    text-align: left;
+}
+
+.picture{
+  width: 70%;
+  height: 490px;
+  box-shadow: 5px 6px 10px;
+  color:black;
+  border-radius: 20px;
+}
+.title-bg{
+  width: 1200px;
+
+  height: 300px;
+}
+.background{
+  width: 95%;
+  height: 470px;
+  position: absolute;
+  top:250px;
+  left:20px;
+
+  opacity: 0.3;
+}
+.btn{
+  margin-top: 30px;
+    border-radius: 10px;
+    align-items: flex-start;
+}
+
+
+
+
+#offers{
+
+  padding: 80px 20px 80px;
+  background-color:#eab0d9;
+
+
+}
+.offer{
+  padding-bottom: 20px;
+  border-radius: 40%;
+}
+h2,h3{
+  color: black;
+  font-family: 'Merriweather', serif;
+
+}
+.card{
+
+  height: 700px;
+
+}
+.card .card-img-top{
+
+  width: 50%;
+  height: 500px;
+  margin: auto;
+}
+.card img:hover{
+  transform:scale(1.05) ;
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+
+.background{
+  width: 90%;
+  height:100%;
+  position: absolute;
+  top:500px;
+}
+.btn{
+  margin-bottom: 20px;
+
+}
+
+
+
+/* cards */
+
+#cards{
+  text-align: center;
+  background-color: #beebe9;
+
+}
+h5{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  color: black;
+}
+.card{
+
+  height:700px;
+  margin:20px 100px 20px;
+  box-shadow: 5px 5px 10px 5px;
+  color:gray;
+
+}
+.card-img-top{
+  width: 100%;
+  padding: 10px 10px 10px;
+}
